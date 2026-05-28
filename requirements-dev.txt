@@ -1,0 +1,14 @@
+# Development-only dependencies (not required to run the Streamlit application).
+# Install with: pip install -r requirements-dev.txt
+# This file already pulls in the production dependencies via -r requirements.txt.
+
+-r requirements.txt
+
+Pillow>=10
+playwright>=1.40
+
+# Quality assurance: tests, coverage, lint and static type checking.
+pytest>=8.0
+pytest-cov>=5.0
+ruff>=0.4
+mypy>=1.10

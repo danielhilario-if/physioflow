@@ -1,0 +1,24 @@
+[server]
+maxUploadSize = 500
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#1b4d3e"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0fdf4"
+textColor = "#1b4d3e"
+
+[theme.light]
+primaryColor = "#1b4d3e"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0fdf4"
+textColor = "#1b4d3e"
+
+[theme.dark]
+primaryColor = "#22c55e"
+backgroundColor = "#111827"
+secondaryBackgroundColor = "#0d1e15"
+textColor = "#e5e7eb"
